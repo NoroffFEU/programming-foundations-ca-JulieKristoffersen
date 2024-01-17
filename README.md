@@ -1,2 +1,21 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13410161&assignment_repo_type=AssignmentRepo)
-# Programming Foundations CA
+#Macbook object
+
+This Macbook object has following properties:
+- model (String), The MacBook is set to the "Macbook Pro"
+- year (Number), The year the Macbook was produced
+- screenSizeInInches (Number), The screen size
+- storageCapacityInGB (Number), The storage capacity og the Macbook
+- hasTouchBar (Boolean), Indicates whether the MacBook has a Touch Bar
+- isAvailable (Boolean), Indicates whether the MacBook is available for purchase
+- colorsAvailable (Array), Different available colors
+-
+    
+    // Function: The purchase method simulates buying the MacBook, updating its availability.
+    purchase: function () {
+        if (this.isAvailable) {
+            this.isAvailable = false;
+            console.log("MacBook purchased. Enjoy your new device!");
+        } else {
+            console.log("Sorry, the MacBook is currently out of stock.");
+        }
+    }
