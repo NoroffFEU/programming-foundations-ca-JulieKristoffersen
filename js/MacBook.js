@@ -5,7 +5,7 @@ let macBook = {
     storageCapacityInGB: 512,
     hasTouchBar: true,
     isAvailable: true,
-    colorsAvailable: ["Silver", "Space Gray"], // Added comma here
+    colorsAvailable: ["Silver", "Space Gray"], 
     purchase: function () {
         if (this.isAvailable) {
             this.isAvailable = false;
