@@ -8,14 +8,4 @@ This Macbook object has following properties:
 - hasTouchBar (Boolean), Indicates whether the MacBook has a Touch Bar
 - isAvailable (Boolean), Indicates whether the MacBook is available for purchase
 - colorsAvailable (Array), Different available colors
--
-    
-    // Function: The purchase method simulates buying the MacBook, updating its availability.
-    purchase: function () {
-        if (this.isAvailable) {
-            this.isAvailable = false;
-            console.log("MacBook purchased. Enjoy your new device!");
-        } else {
-            console.log("Sorry, the MacBook is currently out of stock.");
-        }
-    }
+- purchase (function), If the MacBook if available to purshase or not
